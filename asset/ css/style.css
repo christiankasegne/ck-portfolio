@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(237, 237, 245);
+}
+nav{
+    background-color: rgb(49, 52, 61);
+    height: 80px;
+    width: 100%;
+}
+label.name {
+    background-color: rgb(146, 204, 205);
+    color: rgb(49, 52, 61);
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 20px 0 80px;
+    font-weight: bold;
+}
+nav ul {
+    float: right;
+    margin: 10px;
+}
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 10px;
+}
+nav ul li a { 
+    color: rgb(146, 204, 205);
+    font-size: 25px;
+}
+.hero {
+    height: 150px;
+    width: 100vw;
+    margin-bottom: 25px;
+    background-image: url(../images/topbarpic.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+h2 {
+    background-color: rgb(146, 204, 205);
+    color: rgb(49, 52, 61);
+    padding: 20px;
+}
