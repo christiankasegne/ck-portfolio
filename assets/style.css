@@ -1,0 +1,199 @@
+* {
+    text-decoration: none;
+    }
+    
+    body {
+        background-color: #b79595;
+    }
+
+    /*header and nav starts*/
+
+    header {
+        background-color: rgb(185, 172, 176);
+        width: 100%;
+        height: 100px;
+    }
+    
+    header .name {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 24px;
+        font-weight: 900;
+        color:  rgb(65, 55, 55);
+        text-transform: uppercase;
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        padding:20px 0;
+    }
+    
+    header nav ul {
+        margin: 0 auto;
+    
+    }
+    
+    header nav ul li {
+        display: inline-block;
+        float: left;
+        list-style: none;
+        padding: 0 10px;
+    
+    }
+    
+    header nav ul li a {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 16px;
+        font-weight: 600;
+        color: rgb(65, 55, 55);
+    }
+    
+    header nav ul li a:hover {
+        color:palevioletred;
+    }
+
+    /* Header 1000px with change */
+    
+    @media only screen and (min-width: 1000px){
+        header .name {
+            font-size: 50px;
+            text-align: left;
+            line-height: 38px;
+            padding: 0px 20px 0px 40px;
+            margin: 26px 0;
+            border-right: 3px solid #111;
+            float: left;
+        }
+    
+    
+        header nav ul {
+            margin:20px  0;
+            float: right;
+        
+        }
+        
+        header nav ul li {
+            display: inline-block;
+            float: left;
+            list-style: none;
+            padding: 0 40px;
+        
+        }
+        
+        header nav ul li a {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 28px;
+            line-height: 60px;
+            
+        }
+        
+    }
+    
+    /* banner*/
+    
+    .banner {
+        width: 100%;
+        height: calc(100vh - 100px);
+        background-image: url(../images/banner.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        display: table;
+    }
+    
+    .center{
+        display: table-cell;
+        vertical-align: sub;
+    }
+    
+    .banner h2 {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 60px;
+        font-weight: 900;
+        color: whitesmoke;
+        text-align: center;
+        text-shadow: 2px 2px 8px #111;
+    }
+    .link-box div {
+        margin: 16px 16px 0;
+        width: calc(100% - 32px);
+        height: 100px;
+        background-color: rgb(185, 172, 176);
+        color: rgb(96, 75, 75);
+    }
+    
+    
+    .link-box div h3 {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 28px;
+        font-weight: 100;
+        line-height: 100px;
+        color: rgb(104, 82, 82);
+        text-align: center; 
+    }
+    
+    /* banner 1000px with change */
+
+    @media only screen and (min-width: 1000px){ 
+        .banner {
+            width: 100%;
+            height: 450px;
+        }
+        .banner h2 {
+            font-size: 90px;
+        }
+        .link-box div {
+            margin: 10px 10px 0;
+            height: 100px;
+            background-color: rgb(185, 172, 176);
+            color: rgb(96, 75, 75);
+        }
+    }
+    /*footer*/
+    
+    
+    .footer {
+        padding: 40px 0;
+        margin: 20px;
+        background-color:rgb(185, 172, 176);
+    }
+    
+    .footer .social {
+        text-align: center;
+        padding-bottom: 10px;
+        color: rgb(104, 82, 82);
+    }
+    
+    .footer .social a {
+        font-size: 24;
+        color: inherit;
+        border: 1px solid palevioletred;
+        width: 40px;
+        height: 40px; 
+        line-height: 38px;
+        display: inline-block;
+        text-align: center;
+        border-radius: 50%;
+        margin: 0 8px;
+        opacity: .75;
+    }
+    
+    .footer .social a:hover {
+        opacity: 0.9;
+    }
+    .footer ul {
+        list-style: none;
+        line-height: 1.6;
+    }
+    
+    .footer ul il a {
+        color: palevioletred;
+        text-decoration: none;
+        opacity: 0.8;
+    }
+    .footer ul li {
+        display: inline-block;
+        padding: 0 15px;
+    }
+    
+    footer ul li a:hover {
+        opacity: 1;
+    }
